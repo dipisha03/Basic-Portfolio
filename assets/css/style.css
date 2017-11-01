@@ -1,0 +1,39 @@
+body {
+	background-color: turquoise;
+	margin: 0;
+	margin: 0;
+	font-family: "Georgia";
+	font-size: 12px;	
+	line-height: 150%;
+}
+
+h1 {
+	color: turquoise;
+	background-color: black;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a  {
+	color: grey;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 center;
+	padding: 10px;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+	float: left;
+}
+
+#main-bio {
+	width: 70%;
+}
+#contact-info {
+	width: 30%;
+}
