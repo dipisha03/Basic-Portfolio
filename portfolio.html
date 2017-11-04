@@ -3,7 +3,7 @@
 <html>
 <head>
      
-    <title> Portfolio </title>
+    <title> Portfolio Page </title>
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
      
@@ -11,41 +11,51 @@
 
 <body>
 
-<h1> Dipisha Patel </h1>
+<header class= header> Dipisha Patel </header>
 
-<div class="container">
+<div class = links>
+		<a class = buttons href= "index.html" target="_blank"> About |</a>
+		<a class = buttons href= "portfolio.html" target="_blank"> Portfolio |</a>
+		<a class = buttons href= "contact.html" target="_blank"> Contact </a>
+	</div>
 
-<h2> Portfolio </h2>
+<div id= body2>
 
-<img id="spinning" width= 350 height = 200
-src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\Spinning.jpg"></img>
+	<h1 class= pageheader> Portfolio </h1> <hr class = title>
 
-<img id="cooking" width= 350 height = 200
-src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\Cooking.jpg"></img>
+		<p id= "imageone"> Spinning </p>
+		<img src="./assets/images/Spinning.jpg" alt = "Spinning"
+		width= 300px height = 200px id = spin>
 
-<img id="travel" width= 350 height = 200
-src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\Travel.jpg"></img>
+		<p id= "imagetwo"> Cooking </p>
+		<img src="./assets/images/Cooking.jpg" alt = "Cooking" width= 300px height = 200px id = cook>
+		
+		<p id= "imagethree"> Travel </p> 
+		<img src="./assets/images/Travel.jpg" alt = "Travel" width= 300px height = 200px id = travel>
+		
+		<p id= "imagefour"> Music </p> 
+		<img src="./assets/images/Music.jpg" alt = "Music" width= 300px height = 200px id = rusic>
 
-<img id="music" width= 350 height = 200
-src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\Music.jpg"></img>
-
-<img id="reading" width= 350 height = 200
-src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\Reading.jpg"></img>
-
-<h3> Connect with me </h3>
-	
-		<img height= 30 width= 30 src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\LinkedIn.png/"> 
-			<a href="https://www.linkedin.com/in/dipishapatel/"></a>
-
-		<img height= 30 width= 30 src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\Instagram.png/"> 
-			<a href=https://www.instagram.com/scarletgirl91/></a>
-
-		<img height= 30 width= 30 src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\GitHub.png/"> 
-			<a href="https://github.com/dipisha03"></a>
-
-		<img height= 30 width= 30 src="C:\Users\Dips\Documents\Coding_Bootcamp\Notes\Homework\HW1\basic-portfolio\assets\images\StackOverflow.jpg/">
-			<a href="https://stackoverflow.com/users/8781354/dips"></a>
+		<p id= "imagefive"> Reading </p> 
+		<img src="./assets/images/Reading.jpg" alt = "Reading" width= 300px height = 200px id = reading>
 
 </div>
+
+<div class = connect>
+
+	<h3 class= connectme> Connect with me! <hr> </h3>	
+				
+		<a href="https://www.linkedin.com/in/dipishapatel/" target="_blank"><img height= 45 width= 45 src="./assets/images/linkedin.png"></a>
+			
+		<a href="https://www.instagram.com/scarletgirl91/" target="_blank"><img height= 45 width= 45 src="./assets/images/instagram.png"></a>
+
+		<a href="https://github.com/dipisha03" target="_blank"><img height= 45 width= 45 src="./assets/images/github.png"></a>
+				
+		<a href="https://stackoverflow.com/users/8781354/dips?tab=profile" target="_blank"><img height= 45 width= 45 src="./assets/images/stackoverflow.png"></a>
+
+</div>
+
+<footer class = foot> © Copyright Dipisha Patel 2017 </footer>
+
 </body>
 </html>
