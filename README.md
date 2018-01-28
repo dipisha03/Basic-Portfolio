@@ -1,5 +1,7 @@
 # Basic-Portfolio
-Basic-Portfolio
+Basic-Portfolio 
+
+Technologies used: HTML | CSS 
 
 About me: 
 Focuses on my career & interests 
