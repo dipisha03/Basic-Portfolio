@@ -1,5 +1,4 @@
-# Basic-Portfolio
-Basic-Portfolio 
+# Basic-Portfolio 
 
 Technologies used: HTML | CSS 
 
