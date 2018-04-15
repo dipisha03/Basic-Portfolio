@@ -54,7 +54,7 @@ body {
 	margin-bottom: 10%;
 	font-family: Helvetica;
 	font-size: 12px;	
-	height: 60%;
+	height: 50%;
 	width: 54%;
 	}
 
@@ -142,7 +142,7 @@ body {
 	z-index: 3;
 	}
 
-#spin {
+#redefiningtech {
 	position: absolute;
 	top:  8%;
 	left: 3.4%;
@@ -163,7 +163,7 @@ body {
 	z-index: 3;
 	}
 
-#cook {
+#alchemy {
 	position: absolute;
 	top: 8%;
 	left: 51%;
@@ -184,7 +184,7 @@ body {
 	z-index: 3;
 	}
 
-#travel {
+#burger {
 	position: absolute;
 	top: 32%;
 	left: 3.4%;
@@ -206,7 +206,7 @@ body {
 	z-index: 3;
 	}
 
-#music {
+#mate {
 	position: absolute;
 	top: 32%;
 	left: 51%;
@@ -228,7 +228,7 @@ body {
 	z-index: 3;
 	}
 
-#read {
+#crystal {
 	position: absolute;
 	top: 56%;
 	left: 3.4%;
