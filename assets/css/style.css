@@ -8,10 +8,15 @@ body {
 	text-align: center;
 }
 
+.logo {
+	height: 20px;
+	width: 20px;
+	float: left;
+}
 .header {
 	position: absolute;
-	background-color: black;
-	color: gold;
+	background-color: silver;
+	color: silver;
 	text-align: center;
 	font-family: Georgia;
 	font-size: 26px;
@@ -24,10 +29,10 @@ body {
 
 .links {
 	position: absolute;
-	background-color: black;
+	background-color: silver;
 	font-family: Georgia;
 	font-size: 14px;
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid silver;
 	top: 0;
 	width: 30%;
 	height: 6%;
@@ -39,7 +44,7 @@ body {
 
 .pageheader {
 	background-color: black;
-	color: orangered;
+	color: white;
 	font-family: Georgia;
 	font-size: 20px;
 	padding-left: 3%;
@@ -49,7 +54,7 @@ body {
 	position: absolute;
 	top: 20%;
 	background-color: black;
-	color: gold;
+	color: white;
 	margin-left: 10%;
 	margin-bottom: 10%;
 	font-family: Helvetica;
@@ -79,7 +84,7 @@ body {
 	z-index: 4;
 	}
 
-.body3 {
+/* .body3 {
 	position: absolute;
 	top: 20%;
 	background-color: black;
@@ -90,7 +95,7 @@ body {
 	font-size: 12px;	
 	height: 65%;
 	width: 52%;
-	}
+	} */
 
 .connect {
 	text-align: center;
@@ -113,17 +118,17 @@ body {
 	}
 
 .buttons:link {
-	color: orangered;
+	color: black;
 	text-decoration: none;
 	}
 
 .buttons:visited {
-	color: orangered;
+	color: white;
 	text-decoration: none;
 	}	
 
 .buttons:hover {
-	color: gold;
+	color: white;
 	text-decoration: none;
 	}
 
@@ -163,7 +168,7 @@ body {
 	z-index: 0;
 	}
 
-#messageone {
+/* #messageone {
 	font-family: Georgia;
 	font-size: 14;
 	padding-left: 3%;
@@ -220,15 +225,15 @@ input[type=submit] {
     font-family: Georgia;
     color: black; 
     cursor:pointer;
-	}
+	} */
 
 .foot{
-	background-color: black;
+	background-color: silver;
 	font-family: Georgia;
 	font-size: 13px;
-	color: gold;
+	color: black;
 	text-align: center;
-	border-top: 3px solid white;
+	border-top: 3px solid silver;
 	position: fixed;
 	bottom: 0;
 	left: 0;
