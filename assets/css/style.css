@@ -9,10 +9,11 @@ body {
 }
 
 .logo {
-	height: 20px;
-	width: 20px;
+	width: 10%;
+	max-width: 100%;
 	float: left;
 }
+
 .header {
 	position: absolute;
 	background-color: silver;
