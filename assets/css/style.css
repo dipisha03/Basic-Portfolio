@@ -1,6 +1,6 @@
 
 body {
-	background-color: white;
+	background-color: silver;
 }
 
 .title {
@@ -8,16 +8,16 @@ body {
 	text-align: center;
 }
 
-.logo {
+#logo {
 	width: 10%;
-	max-width: 100%;
-	float: left;
+    max-width: 100%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .header {
 	position: absolute;
-	background-color: silver;
-	color: silver;
 	text-align: center;
 	font-family: Georgia;
 	font-size: 26px;
@@ -30,10 +30,9 @@ body {
 
 .links {
 	position: absolute;
-	background-color: silver;
+	color: black;
 	font-family: Georgia;
 	font-size: 14px;
-	border-bottom: 3px solid silver;
 	top: 0;
 	width: 30%;
 	height: 6%;
@@ -54,8 +53,8 @@ body {
 .body {
 	position: absolute;
 	top: 20%;
-	background-color: black;
-	color: white;
+	background-color: silver;
+	color: black;
 	margin-left: 10%;
 	margin-bottom: 10%;
 	font-family: Helvetica;
@@ -76,7 +75,7 @@ body {
 
 .body2 {
 	position: absolute;
-	background-color: black;
+	background-color: silver;
 	margin-left: 10%;
 	height: 900px;
 	width: 52%;
