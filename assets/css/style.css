@@ -52,18 +52,8 @@ body {
 	font-weight: bold;
 }
 
-.buttons:link {
-	color: black;
-	text-decoration: none;
-	}
-
-.buttons:visited {
-	color: pink;
-	text-decoration: none;
-	}	
-
 .buttons:hover {
-	color: greenyellow;
+	color: black;
 	text-decoration: none;
 	}
 
