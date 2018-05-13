@@ -46,10 +46,12 @@ body {
 	font-size: 12px;
 }
 
-.buttons {
+.buttons:link {
 	font-family: Georgia;
 	font-size: 12px;
 	font-weight: bold;
+	text-decoration: none;
+	color: pink;
 }
 
 .buttons:hover {
