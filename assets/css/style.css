@@ -1,16 +1,17 @@
-#main div {
-    -webkit-flex: 1; /* Safari 6.1+ */
-    -ms-flex: 1; /* IE 10 */ 
-    flex: 1;
-}
 
 body {
 	background-color: beige;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .title {
 	width: 95%;
 	text-align: center;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 #logo {
@@ -18,7 +19,10 @@ body {
     max-width: 100%;
     float: left;
     margin-left: 2%;
-    margin-top: 2%;
+	margin-top: 2%;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .pageheader {
@@ -26,7 +30,10 @@ body {
     color: black;
     font-family: Georgia;
     font-size: 20px;
-    padding-left: 3%;
+	padding-left: 3%;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .body {
@@ -37,17 +44,26 @@ body {
     margin-left: 12%;
     font-size: 12px;
     height: 50%;
-    width: 54%;
+	width: 54%;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 #bio-image {
 	float: left;
-	padding: 1% 2% 100%
+	padding: 1% 2% 100%;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 #p, #li {
 	font-family: Georgia;
 	font-size: 12px;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .buttons {
@@ -56,6 +72,9 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 	color: pink;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .buttons:hover {
@@ -72,11 +91,17 @@ body {
 	width: 52%;
 	margin-bottom: 20%;
 	z-index: 4;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .apps {
 	margin-left: 3%;
-    text-align: -webkit-left;
+	text-align: -webkit-left;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
 
 .foot{
@@ -92,4 +117,7 @@ body {
 	height: 5%;
 	padding-top: 2%;
 	z-index: 999;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
 }
