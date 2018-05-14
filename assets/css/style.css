@@ -1,6 +1,4 @@
 
-@media screen and (min-width: 481px) {
-
 body {
 	background-color: beige;
 }
@@ -92,8 +90,7 @@ body {
 	z-index: 999;
 }
 
-}
-
+/* Media Query  */
 @media screen and (max-width: 480px) and (min-width: 361px) {
 
 	body {
