@@ -32,13 +32,11 @@ body {
     margin-left: 12%;
     font-size: 12px;
     height: 50%;
-	width: 100%;
 }
 
 #bio-image {
 	float: left;
 	padding: 1% 2% 100%;
-	width: 100%;
 }
 
 #p, #li {
@@ -65,7 +63,7 @@ body {
 	background-color: beige;
 	margin-left: 12%;
 	height: 500px;
-	width: 100%;
+	width: 50%;
 	margin-bottom: 20%;
 	z-index: 4;
 }
@@ -90,7 +88,7 @@ body {
 	z-index: 999;
 }
 
-/* Media Query 
+/* Media Query  */
 @media screen and (max-width: 480px) and (min-width: 361px) {
 
 	body {
@@ -163,7 +161,7 @@ body {
 	.buttons:hover {
 		color: black;
 		text-decoration: none;
-		}
+	}
 	
 	.body2 {
 		position: absolute;
@@ -197,5 +195,4 @@ body {
 		padding-top: 2%;
 		z-index: 999;
 	}
-
-} */
+}
