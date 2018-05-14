@@ -14,9 +14,9 @@ body {
     float: left;
     margin-left: 2%;
 	margin-top: 2%;
-	-webkit-animation:spin 30s linear infinite;
-    -moz-animation:spin 30s linear infinite;
-    animation:spin 30s linear infinite;
+	-webkit-animation:spin 60s linear infinite;
+    -moz-animation:spin 60s linear infinite;
+    animation:spin 60s linear infinite;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
@@ -114,9 +114,9 @@ body {
 		float: left;
 		margin-left: 3%;
 		margin-top: 5%;
-		-webkit-animation:spin 30s linear infinite;
-    	-moz-animation:spin 30s linear infinite;
-    	animation:spin 30s linear infinite;
+		-webkit-animation:spin 60s linear infinite;
+    	-moz-animation:spin 60s linear infinite;
+    	animation:spin 60s linear infinite;
 	}
 	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
