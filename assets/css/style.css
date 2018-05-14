@@ -1,8 +1,5 @@
 
-/* @viewport {
-	width: device-width ;
-	zoom: 1.0 ;
-  } */
+@media screen and (min-width: 481px) {
 
 body {
 	background-color: beige;
@@ -37,12 +34,13 @@ body {
     margin-left: 12%;
     font-size: 12px;
     height: 50%;
-	width: 54%;
+	width: 100%;
 }
 
 #bio-image {
 	float: left;
 	padding: 1% 2% 100%;
+	width: 100%;
 }
 
 #p, #li {
@@ -69,7 +67,7 @@ body {
 	background-color: beige;
 	margin-left: 12%;
 	height: 500px;
-	width: 52%;
+	width: 100%;
 	margin-bottom: 20%;
 	z-index: 4;
 }
@@ -92,4 +90,115 @@ body {
 	height: 5%;
 	padding-top: 2%;
 	z-index: 999;
+}
+
+}
+
+@media screen and (max-width: 480px) and (min-width: 361px) {
+
+	body {
+		background-color: beige;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.title {
+		width: 95%;
+		text-align: center;
+	}
+	
+	#logo {
+		width: 18%;
+		max-width: 100%;
+		float: left;
+		margin-left: 3%;
+		margin-top: 5%;
+	}
+	
+	.pageheader {
+		background-color: beige;
+		color: black;
+		font-family: Georgia;
+		font-size: 20px;
+		padding-left: 3%;
+		width: 100%;
+	}
+	
+	.body {
+		position: absolute;
+		top: 13%;
+		background-color: beige;
+		color: black;
+		margin-left: 23%;
+		font-size: 12px;
+		width: 100%;
+		height: 830px;
+	}
+	
+	#bio-image {
+		float: left;
+		padding-bottom: 6%;
+		width: 100%;
+	}
+	
+	#p, #li {
+		font-family: Georgia;
+		font-size: 12px;
+		padding: 2%;
+	}
+
+	.a {
+		margin-left: 20%;
+	}
+
+	.contactme {
+		margin-left: 30%;
+	}
+	
+	.buttons {
+		font-family: Georgia;
+		font-size: 12px;
+		font-weight: bold;
+		text-decoration: none;
+		color: pink;
+	}
+	
+	.buttons:hover {
+		color: black;
+		text-decoration: none;
+		}
+	
+	.body2 {
+		position: absolute;
+		top: 13%;
+		background-color: beige;
+		margin-left: 23%;
+		height: 145%;
+		width: 100%;
+		margin-bottom: 20%;
+		z-index: 4;
+	}
+	
+	.apps {
+		margin-left: 3%;
+		text-align: -webkit-left;
+		zoom: 2.5;
+
+	}
+	
+	.foot{
+		background-color: black;
+		font-family: Georgia;
+		font-size: 13px;
+		color: beige;
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 5%;
+		padding-top: 2%;
+		z-index: 999;
+	}
+
 }
