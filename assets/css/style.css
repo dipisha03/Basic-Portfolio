@@ -14,9 +14,9 @@ body {
     float: left;
     margin-left: 2%;
 	margin-top: 2%;
-	-webkit-animation:spin 60s linear infinite;
-    -moz-animation:spin 60s linear infinite;
-    animation:spin 60s linear infinite;
+	-webkit-animation:spin 0.5s linear infinite;
+    -moz-animation:spin 0.5s linear infinite;
+    animation:spin 0.5s linear infinite;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
