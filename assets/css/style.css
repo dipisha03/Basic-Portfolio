@@ -31,7 +31,8 @@ body {
     color: black;
     margin-left: 12%;
     font-size: 12px;
-    height: 50%;
+	height: 50%;
+	width: 50%;
 }
 
 #bio-image {
@@ -88,7 +89,7 @@ body {
 	z-index: 999;
 }
 
-/* Media Query 
+/* Media Query  */
 @media screen and (max-width: 480px) and (min-width: 361px) {
 
 	body {
@@ -192,4 +193,4 @@ body {
 		padding-top: 2%;
 		z-index: 999;
 	}
-} */
+}
