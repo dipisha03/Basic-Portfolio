@@ -88,7 +88,7 @@ body {
 	z-index: 999;
 }
 
-/* Media Query  */
+/* Media Query 
 @media screen and (max-width: 480px) and (min-width: 361px) {
 
 	body {
@@ -130,7 +130,7 @@ body {
 	#bio-image {
 		float: left;
 		padding-bottom: 6%;
-		width: 100%;
+		width: 50%;
 	}
 	
 	#p, #li {
@@ -192,4 +192,4 @@ body {
 		padding-top: 2%;
 		z-index: 999;
 	}
-}
+} */
