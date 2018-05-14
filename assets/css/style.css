@@ -1,6 +1,4 @@
 
-@media screen and (max-width:980px, 768px, 640px, 420px, 414px, 375px, 360px){
-
 body {
 	background-color: beige;
 }
@@ -89,6 +87,4 @@ body {
 	height: 5%;
 	padding-top: 2%;
 	z-index: 999;
-}
-
 }
